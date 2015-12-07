@@ -31,3 +31,5 @@ If running locally, you can optionally update your `hosts` file to test your dom
 If you've forgotten your Docker host IP (and you're using the machine named 'default'), run:
 
     $ docker-machine ip default
+
+Remember to rebuild the image from the `Dockerfile` if you modify `nginx.conf`!
