@@ -1,0 +1,9 @@
+nginx:
+    container_name: nginx-virtual-hosts
+    image: nginx-sites-enabled
+    ports:
+        - 80:80
+        - 443:443
+    volumes:
+        - ./www/:/var/www/:ro
+        - ./sites-enabled/:/etc/nginx/sites-enabled/
