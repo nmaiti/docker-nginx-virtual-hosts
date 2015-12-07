@@ -2,6 +2,8 @@
 
 Run nginx in Docker with virtual hosts (server blocks) enabled and easily configurable.
 
+At its most basic, this can be used to host multiple static sites for different domains on a single vps.
+
 ## Info
 
 Place nginx server blocks inside the `sites-enabled/` folder. See the examples.
