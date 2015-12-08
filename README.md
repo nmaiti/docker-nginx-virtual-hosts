@@ -33,3 +33,8 @@ If you've forgotten your Docker host IP (and you're using the machine named 'def
     $ docker-machine ip default
 
 Remember to rebuild the image from the `Dockerfile` if you modify `nginx.conf`!
+
+### Test virtual hosts are correctly routed
+
+    $ curl -H "Host:secondexample.com" <DOCKER_MACHINE_IP>
+
