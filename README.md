@@ -38,3 +38,7 @@ Remember to rebuild the image from the `Dockerfile` if you modify `nginx.conf`!
 
     $ curl -H "Host:secondexample.com" <DOCKER_MACHINE_IP>
 
+### Install Docker Compose on Ubuntu
+
+    $ sudo apt-get -y install python-pip
+    $ sudo pip install docker-compose
